@@ -17,7 +17,7 @@ import Story from './pages/Story'
 import GetAllStories from './hooks/GellAllStories'
 import Messages from './pages/Messages'
 import MessageArea from './pages/MessageArea'
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://vibe-oa6h.onrender.com"
 import {io} from 'socket.io-client'
 import { setOnlineUsers, setSocket } from './redux/socketSlice'
 import GetFollowingList from './hooks/GetFollowingList'
